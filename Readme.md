@@ -132,7 +132,7 @@ node ./Makefile.dryice.js
 To package Ace, we use the dryice build tool developed by the Mozilla Skywriter team. Call `node Makefile.dryice.js` on the command-line to start the packing. This build script accepts the following options
 
 ```bash
--m                 minify build files with uglify-js          
+--m                minify build files with uglify-js          
 -nc                namespace require and define calls with "ace"
 -bm                builds the bookmarklet version
 --target ./path    specify relative path for output folder (default value is "./build")

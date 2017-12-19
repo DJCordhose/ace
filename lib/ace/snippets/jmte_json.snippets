@@ -1,0 +1,8 @@
+snippet if
+	\${if ${1?:condition}}${2:if_block}\${else}${3:else_block}\${end}
+# JMTE For Each
+snippet for
+	\${foreach ${1?:list} ${2:iterator}}\${${2:iterator}}\${end}
+# Expression
+snippet ${
+	\${${1:expression}}
